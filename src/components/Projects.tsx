@@ -1,8 +1,6 @@
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 
-import { ExternalLink } from "lucide-react";
-
 import { Card, CardContent } from "@/components/ui/card";
 
 export const projects = [
