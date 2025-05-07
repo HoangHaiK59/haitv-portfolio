@@ -8,40 +8,64 @@ import { JobImages } from "@/components/JobImages";
 
 const jobs = [
     {
-        role: "Senior Full-Stack Developer", // TODO: Replace with actual role
-        company: "Tech Innovators Inc.", // TODO: Replace with actual company name
-        logo: "/company.svg", // TODO: Replace with actual logo
-        duration: "2020 - Present",
+        role: "Freelance Developer", // TODO: Replace with actual role
+        company: "Studiosity", // TODO: Replace with actual company name
+        logo: "/companies/studiosity.png", // TODO: Replace with actual logo
+        duration: "2024 - present",
         description:
-            "Lead developer for multiple high-impact projects, mentoring junior developers, and implementing best practices.",
-        link: "https://techinnovators.com",
+            "Develop, maintain and improve educational projects",
+        link: "#",
         images: [],
     },
     {
-        role: "Senior Full-Stack Developer", // TODO: Replace with actual role
-        company: "Tech Innovators Inc.", // TODO: Replace with actual company name
-        logo: "/company.svg", // TODO: Replace with actual logo
-        duration: "2018 - 2020",
+        role: "Fullstack JavaScript Developer", // TODO: Replace with actual role
+        company: "VMO", // TODO: Replace with actual company name
+        logo: "/companies/vmo.png", // TODO: Replace with actual logo
+        duration: "2021 - present",
         description:
             "Developed and maintained various client projects, focusing on responsive design and performance optimization.",
-        link: "https://websolutions.com",
-        images: [
-            "/devvault.png",
-            "/devvault.png",
-        ],
+        link: "#",
+        images: [],
     },
     {
-        role: "Senior Full-Stack Developer", // TODO: Replace with actual role
-        company: "Tech Innovators Inc.", // TODO: Replace with actual company name
+        role: "Freelance Frontend Developer", // TODO: Replace with actual role
+        company: "-", // TODO: Replace with actual company name
         logo: "/company.svg", // TODO: Replace with actual logo
-        duration: "2016 - 2018",
+        duration: "2023 - 2024",
         description:
-            "Assisted in the development of web applications, gained experience in agile methodologies and version control.",
-        link: "https://startupventures.com",
-        images: [
-            "/devvault.png",
-            "/devvault.png",
-        ],
+            "Developed client projects",
+        link: "#",
+        images: [],
+    },
+    {
+        role: "Frontend Developer", // TODO: Replace with actual role
+        company: "Sunshine Group", // TODO: Replace with actual company name
+        logo: "/company.svg", // TODO: Replace with actual logo
+        duration: "2020 - 2021",
+        description:
+            "Develop and maintain many projects",
+        link: "#",
+        images: [],
+    },
+    {
+        role: "Frontend Developer", // TODO: Replace with actual role
+        company: "ETC", // TODO: Replace with actual company name
+        logo: "/company.svg", // TODO: Replace with actual logo
+        duration: "2019 - 2020",
+        description:
+            "Develop client projects, focusing on design and problem solving and cost optimization for clients",
+        link: "#",
+        images: [],
+    },
+    {
+        role: "Frontend Developer", // TODO: Replace with actual role
+        company: "FPT Software", // TODO: Replace with actual company name
+        logo: "/companies/fpt-software.png", // TODO: Replace with actual logo
+        duration: "2018 - 2019",
+        description:
+            "UI design, feature development for application",
+        link: "#",
+        images: [],
     },
 ]
 

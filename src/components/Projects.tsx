@@ -7,36 +7,97 @@ import { Card, CardContent } from "@/components/ui/card";
 
 export const projects = [
     {
-        title: "E-commerce Platform",
-        description: "A full-stack e-commerce solution with React, Node.js, and MongoDB",
-        tech: "React",
+        title: "Studiosity",
+        description: "Studiosity offers personal study help anytime, anywhere, partnering with universities worldwide to enhance student success through AI and peer support.",
+        tech: "ReactJS, AI, CoffeeScript, Ruby on Rails, EmberJS",
         link: "#",
     },
     {
-        title: "Task Management App",
-        description: "A productivity app built with React Native and Firebase",
+        title: "MAX EC",
+        description: "A contract-based glasses and hearing aid rental system built with many different services, using technologies such as: Ruby on Rails, ReactJS, PowerBI, .NET, SSO,...",
+        tech: "ReactJS",
+        link: "#",
+    },
+    {
+        title: "Others",
+        description: "Develop products within the company's ecosystem or outsource",
+        tech: "Angular, .NET, WordPress, NextJS, NuxtJS, ReactJS, Ruby on Rails,...",
+        link: "#",
+    },
+    {
+        title: "Yeowubie",
+        description: "A marketing agency",
+        tech: "NuxtJS",
+        link: "#",
+    },
+    {
+        title: "HPA Healthcare",
+        description: "A medical blockchain application built with React Native, VueJS, NestJS, MongoDB and private blockchains",
         tech: "React Native",
         link: "#",
     },
     {
-        title: "Data Visualization Dashboard",
-        description: "An interactive dashboard using D3.js and Vue.js",
-        tech: "Vue.js",
+        title: "QTI IoT",
+        description: "An IoT sauna system built with Vue JS, Node JS, Flutter",
+        tech: "VueJS",
         link: "#",
     },
     {
-        title: "AI Chatbot",
-        description: "A machine learning powered chatbot using Python and TensorFlow",
-        tech: "Python",
+        title: "DMTP",
+        description: "Web3 Communication Protocol",
+        tech: "ReactJS",
+        link: "#",
+    },
+    {
+        title: "Goen",
+        description: "An application for token investment, staking pool",
+        tech: "NuxtJS, NodeJS",
+        link: "#",
+    },
+    {
+        title: "Mirana Market",
+        description: "An application for selling NFTs",
+        tech: "NextJS, NodeJS",
+        link: "#",
+    },
+    {
+        title: "ASD True E-Logistics",
+        description: "A E-Logistics system built with ReactJS, NodeJS, GraphQL and designed as micro services structure",
+        tech: "ReactJS",
+        link: "#",
+    },
+    {
+        title: "KSB Banking",
+        description: "A banking application using Angular, Java",
+        tech: "Angular",
+        link: "#",
+    },
+    {
+        title: "S-Housing",
+        description: "A system for managing contracts and contract execution progress in the real estate sector",
+        tech: "Angular, .NET",
+        link: "#",
+    },
+    {
+        title: "S-Services",
+        description: "Vehicle management system in and out of buildings, electricity and water services,...",
+        tech: "Angular, .NET",
+        link: "#",
+    },
+    {
+        title: "JMUP",
+        description: "An application for Ingenico POS devices",
+        tech: "JavaScript, HTML, C++",
         link: "#",
     },
 ]
 
 const techColors = {
-    "React": "bg-blue-500",
+    "ReactJS": "bg-blue-500",
     "React Native": "bg-green-500",
-    "Vue.js": "bg-purple-500",
+    "VueJS": "bg-purple-500",
     "Python": "bg-yellow-500",
+    "Angular": "bg-red-600"
 }
 
 export const Projects = () => {
@@ -71,13 +132,6 @@ export const Projects = () => {
                                             {p.tech}
                                         </span>
                                     </div>
-                                    <Link
-                                        href={p.link}
-                                        className="flex items-center gap-2 text-sm text-primary hover:underline"
-                                    >
-                                        View Project
-                                        <ExternalLink className="inline-block size-3" />
-                                    </Link>
                                 </div>
                             </div>
                         </CardContent>

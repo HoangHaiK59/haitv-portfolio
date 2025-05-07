@@ -12,17 +12,17 @@ import { Button } from "@/components/ui/button";
 const socials = [
     {
         name: "Github",
-        link: "https://github.com/achris-alonzo30",
+        link: "https://github.com/HoangHaiK59",
         icon: <FaGithub className="size-4" />
     },
     {
         name: "LinkedIn",
-        link: "https://linkedin.com/in/lonzochris",
+        link: "https://linkedin.com/in/hai-hoang-56a0a3183",
         icon: <FaLinkedin className="size-4" />
     },
     {
         name: "X (Twitter)",
-        link: "https://x.com/lonz_chris",
+        link: "https://x.com/hoanghai0111",
         icon: <FaXTwitter className="size-4" />
     }
     // TODO: Add more socials here
@@ -38,19 +38,19 @@ export const Profile = () => {
                             width={150}
                             height={150}
                             quality={100}
-                            src="/avatar.svg"
+                            src="/avatar.jpg"
                             alt="Profile Picture"
                             className="rounded-full size-12 md:w-full h-auto object-cover border-2"
                         />
                         <div className="flex flex-col items-start justify-center">
-                            <h1 className="font-bold md:mt-4 text-xl md:text-2xl">Chris Lonzo</h1>
+                            <h1 className="font-bold md:mt-4 text-xl md:text-2xl">HaiTV</h1>
                             <p className="text-sm md:text-base text-muted-foreground">
-                                Solopreneur Developer
+                                Frontend Developer
                             </p>
                         </div>
                     </div>
                     <p className="mt-2 text-start text-sm text-muted-foreground">
-                        I am a solopreneur developer with a passion for building products that solve real-world problems.
+                        I am an entrepreneur Frontend Engineer passionate about crafting intuitive and engaging web applications.
                     </p>
                     <Button className="mt-4 w-full" asChild>
                         {/* TODO: Add resume link */}

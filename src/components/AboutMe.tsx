@@ -14,7 +14,12 @@ export const AboutMe = ( ) => {
             <CardContent>
                 <p className="text-muted-foreground">
                     {/* Write 1-2 sentences about yourself */}
-                    I am a software engineer with a passion for building scalable and efficient web applications.
+                    I am a Frontend Developer passionate about building scalable and efficient web applications with a
+                    focus on performance, accessibility, and user experience. Proficient in modern technologies like
+                    HTML, CSS, JavaScript, and frameworks such as ReactJS, Angular or Vue.js, I thrive on turning designs into
+                    functional, responsive interfaces. I enjoy collaborating with cross-functional teams to deliver
+                    clean, maintainable code and stay updated with the latest industry trends to ensure innovative and
+                    high-quality solutions.
                 </p>
             </CardContent>
         </Card>
