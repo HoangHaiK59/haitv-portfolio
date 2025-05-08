@@ -9,10 +9,11 @@ services:
 
   nginx:
     image: nginx:latest
-    container_name: nginx
+    container_name: haitv-portfolio-nginx
     ports:
       - "80:80"
+      - "443:443"
     volumes:
-      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
     depends_on:
       - haitv-portfolio
